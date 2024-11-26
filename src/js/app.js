@@ -1,2 +1,2 @@
-let app = 'app.js';
+const app = 'app.js';
 console.log(app);
