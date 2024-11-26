@@ -1,1 +1,2 @@
-console.log('app.js');
+let app = 'app.js';
+console.log(app);
