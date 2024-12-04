@@ -14,10 +14,10 @@ describe('Page start', () => {
     page = await browser.newPage();
   });
 
-  test('test', async () => {
+  test('page start', async () => {
     await page.goto('http://localhost:9000');
 
-    await page.waitFor('body');
+    await page.waitForTimeout('body'); // в видео-уроке await page.waitFor - заменил
   });
 
   afterEach(async () => {
